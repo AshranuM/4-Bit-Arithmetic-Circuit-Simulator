@@ -297,6 +297,6 @@ It provides a practical understanding of digital arithmetic circuit concepts thr
 
 **Project:** 4-Bit Arithmetic Circuit Simulator  
 **Language:** Python  
-**Domain:** Digital Electronics / Computer Organization and Architecture  
+**Domain:** Computer Organization and Architecture  
 **Architecture:** Multiplexer + 4-bit Ripple Carry Adder  
 **Verification:** 1,024 Test Cases
