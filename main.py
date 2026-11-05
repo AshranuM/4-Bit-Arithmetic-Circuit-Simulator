@@ -99,11 +99,10 @@ def main():
         print("Decimal Result :", result)
         print("Carry Out      :", carry)
 
-        # Signed interpretation for subtraction
-        if choice == "2" and result >= 8:
-            print("Signed Result :", result - 16)
-        elif choice == "2":
-            print("Signed Result :", result)
+        # Display actual mathematical subtraction result
+        if choice == "2":
+            signed_result = a - b
+            print("Signed Result :", signed_result)
 
         print("-" * 50)
 
