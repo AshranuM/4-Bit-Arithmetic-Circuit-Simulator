@@ -876,7 +876,9 @@ def test_circuit():
     }
 };
 
-// Auto-boot when DOM is loaded
-document.addEventListener("DOMContentLoaded", () => {
+// Auto-boot safely whether DOM is already loaded or still loading
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", () => App.init());
+} else {
     App.init();
-});
+}
